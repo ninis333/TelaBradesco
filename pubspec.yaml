@@ -1,0 +1,24 @@
+name: bradesco
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.11.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/assets/images/banner.png
+    - lib/assets/images/icon_add_account.png
+    - lib/assets/images/logo.png
+    - lib/assets/images/stars.png
